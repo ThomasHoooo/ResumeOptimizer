@@ -1,5 +1,7 @@
 # ResumeOptimizer
 
+ResumeOptimizer is an automated LLM tool that aims to help job seekers tailor their resume according a job description.
+
 ## Development steps
 
 1. Create a virtual environment using the following command:
@@ -27,5 +29,3 @@
 4. Create a `.env` file at the root directory and key in your `OPENAI_API_KEY`
 
 5. Start the application using `streamlit run app.py`
-
-6. Lastly, happy developing!
