@@ -27,7 +27,7 @@ def main():
 
     resume = st.file_uploader("Upload your resume here", type=["docx"])
     if st.button("Go"):
-        if not (company or role or job_description or resume):
+        if not (company and role and job_description and resume):
             st.error("Please fill in all the fields")
             st.stop()
         with st.spinner("Loading..."):
